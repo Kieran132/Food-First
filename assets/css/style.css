@@ -80,20 +80,25 @@ h2{
 
 #weekly-recipe{
     height: 600px;
-}
-
-#weekly-heading{
-    float: right;
-}
-
-#weekly-heading h2{
-    text-transform: uppercase;
-    letter-spacing: 6px;
     font-size: 40px;
 }
 
+#weekly-heading, #recipe-details{
+    float: left;
+}
+
+#recipe-details{
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-right: 60px;
+}
+
+
 #recipe-image{
-    background: url(/assets/images/roast-cauli.jpg) no-repeat center center;
-    height: 100%;
-    width: auto;
+    float: right;
+    height: 300px;
+    width: 300px;
+    padding-right: 65px;
+    margin-bottom: 180px;
+    object-fit: cover;
 }
