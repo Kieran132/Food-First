@@ -77,3 +77,23 @@ h2{
     left: 20px;
     position: absolute;
 }
+
+#weekly-recipe{
+    height: 600px;
+}
+
+#weekly-heading{
+    float: right;
+}
+
+#weekly-heading h2{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+#recipe-image{
+    background: url(/assets/images/roast-cauli.jpg) no-repeat center center;
+    height: 100%;
+    width: auto;
+}
