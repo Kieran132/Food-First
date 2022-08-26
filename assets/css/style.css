@@ -11,3 +11,37 @@ body{
     font-weight: 400;
     color: #6b8571;
 }
+
+h1, h2{
+    font-family: Rokkitt, sans-serif;
+    color: #6B7285;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+#logo{
+    float: left;
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+#menu{
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+
+#menu li{
+    float: right;
+    margin-right: 55px;
+    list-style-type: none;
+}
+
+#menu, #logo{
+    line-height: 60px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #6B7285;
+}
