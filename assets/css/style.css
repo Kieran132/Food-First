@@ -12,7 +12,14 @@ body{
     color: #6b8571;
 }
 
-h1, h2{
+h1{
+    font-family: Rokkitt, sans-serif;
+    color: #6B7285;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h2{
     font-family: Rokkitt, sans-serif;
     color: #6B7285;
     text-transform: uppercase;
@@ -51,4 +58,10 @@ h1, h2{
 
 #menu a:hover{
     border-bottom: #6B7285 4px solid;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url(../images/heo-image.jpeg);
 }
