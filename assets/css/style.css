@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box
 }
 
 body{
@@ -83,22 +84,18 @@ h2{
     font-size: 40px;
 }
 
-#weekly-heading, #recipe-details{
+#weekly-heading{
     float: left;
 }
 
-#recipe-details{
-    padding-left: 20px;
-    padding-top: 40px;
-    margin-right: 60px;
-}
-
-
-#recipe-image{
-    float: right;
-    height: 300px;
-    width: 300px;
-    padding-right: 65px;
-    margin-bottom: 180px;
+.row {
+    padding-top: 10px;
+    display: flex;
     object-fit: cover;
+    float: left;
 }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
