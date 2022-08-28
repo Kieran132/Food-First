@@ -122,3 +122,27 @@ h2{
     text-align:center;
     box-sizing: border-box;
 }
+
+footer{
+    position:relative; top:-100px;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+#media{
+    text-align: center;
+}
+
+#media > li{
+    display: inline-block;
+}
+
+#media li{
+    font-size: 40px;
+    color: black;
+    margin: 5%;
+    letter-spacing: 6px;
+    list-style-type: none;
+}
