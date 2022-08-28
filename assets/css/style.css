@@ -68,7 +68,7 @@ h2{
 }
 
 #hero-text{
-    font-size: 30px;
+    font-size: 40px;
     font-family: Rokkit, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -101,6 +101,11 @@ h2{
     padding: 5px;
     height: 150px;
   }
+
+#events{
+    position: relative; top:-160px;
+    overflow: hidden;
+}
 
   #events-heading{
     font-size: 40px;
