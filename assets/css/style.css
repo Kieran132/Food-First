@@ -87,6 +87,7 @@ h2{
 
 #weekly-heading{
     float: left;
+    padding-top: 50px;
 }
 
 .row {
@@ -108,7 +109,7 @@ h2{
 }
 
   #events-heading{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     letter-spacing: 6px;
 
@@ -139,10 +140,10 @@ footer{
     display: inline-block;
 }
 
-#media li{
+#media li a{
     font-size: 40px;
-    color: black;
+    color: #6B7285;
     margin: 5%;
-    letter-spacing: 6px;
+    letter-spacing: 20px;
     list-style-type: none;
 }
