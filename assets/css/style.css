@@ -147,3 +147,17 @@ footer{
     letter-spacing: 20px;
     list-style-type: none;
 }
+
+
+  .images {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    columns: 4;
+  }
+  
+  .images img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
