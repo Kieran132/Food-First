@@ -150,8 +150,8 @@ footer{
 
 
   .images {
-    flex: 25%;
-    max-width: 25%;
+    flex: 55%;
+    max-width: 100%;
     padding: 0 4px;
     columns: 4;
   }
