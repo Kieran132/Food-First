@@ -148,6 +148,19 @@ position:relative; top: -25px;
     list-style-type: none;
 }
 
+@media only screen and (max-width: 1200px){
+    #logo{
+        margin-top: 0;
+        margin-left: auto;
+        height: 500px;
+        width: 50%;
+    }
+
+    #weekly-recipe{
+        margin: 0;
+        padding: 40px;
+    }
+}
 
   .images {
     flex: 55%;
