@@ -74,7 +74,7 @@ h2{
     letter-spacing: 6px;
     padding-left: 10px;
     padding-top: 50px;
-    top: 250px;
+    top: 350px;
     left: 20px;
     position: absolute;
 }
@@ -164,6 +164,7 @@ position:relative; top: -25px;
         margin-bottom: 20px;
     }
 
+
     #weekly-recipe{
         width:100%;
         max-height:20%; 
@@ -188,6 +189,12 @@ position:relative; top: -25px;
         float: left;
         margin-left: 10px;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #menu{
+        width:100%;
     }
 }
 
