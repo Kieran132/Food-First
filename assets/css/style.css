@@ -149,17 +149,23 @@ position:relative; top: -25px;
 }
 
 @media only screen and (max-width: 1200px){
-    #logo{
-        margin-top: 0;
-        margin-left: auto;
-        height: 500px;
+    #nav{
+        height: 100%;
         width: 50%;
+        margin: auto 0;
     }
 
-    #weekly-recipe{
-        margin: 0;
-        padding: 40px;
+    .row .column{
+        columns: 1;
     }
+
+    #events > div{
+        width:100%;
+        clear: both;
+        height: -150px;
+        padding: -100px;
+    }
+
 }
 
   .images {
