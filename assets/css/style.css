@@ -126,7 +126,7 @@ h2{
 }
 
 footer{
-position:relative; top: -25px;
+position:relative; 
    left:0px;
    bottom:0px;
    height:30px;
@@ -148,6 +148,7 @@ position:relative; top: -25px;
     letter-spacing: 20px;
     list-style-type: none;
 }
+
 
 @media only screen and (max-width: 1200px){
     #logo{
