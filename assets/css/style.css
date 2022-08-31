@@ -30,7 +30,7 @@ h2{
 #logo{
     float: left;
     margin-left: 55px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 80px;
 }
 
@@ -101,7 +101,7 @@ h2{
 .column {
     flex: 25%;
     padding: 5px;
-    height: 150px;
+    height: 200px;
   }
 
 #events{
@@ -109,14 +109,14 @@ h2{
     overflow: hidden;
 }
 
-  #events-heading{
+#events-heading{
     font-size: 50px;
     text-align: center;
     letter-spacing: 6px;
 
-  }
+}
 
-  #events div{
+#events div{
     color: inherit;
     width: 20%;
     height: 150px;
@@ -200,15 +200,15 @@ position:relative;
 }
 
 
-  .images {
+.images {
     flex: 55%;
     max-width: 100%;
     padding: 0 4px;
     columns: 4;
-  }
+}
   
-  .images img {
+.images img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
+}
