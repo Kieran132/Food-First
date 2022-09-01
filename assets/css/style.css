@@ -241,18 +241,27 @@ position:relative;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     
+    #hero-image{
+    
+    }
+
+    #hero-text{
+        font-size:35px;
+    }
+
     #logo{
         text-align: center;
     }
     
     #menu li{
         float:right;
-    margin-right: 5px;
+    margin-right: 10px;
     list-style-type: none;
     text-align: center;
     padding: 14px 16px;
+    width: 115px;
     
     }
 
