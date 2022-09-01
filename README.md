@@ -85,5 +85,5 @@ This page enable the user to sign up to be able to recieve notifications on the 
 - Eye Dropper - Chrome add on that allowed me to pick the exact color I was after
 - Canva - Color pairing tool that showed me which colors went well with the ones i chose
 
-##Testing
-Click to [here](/workspace/Food-First/TESTING.md)
+##Testing and Bugs
+Click to [here](TESTING.md) to see further information on testing
