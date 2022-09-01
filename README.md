@@ -71,3 +71,19 @@ The gallery page showcases the range of recipes available to the user. With bein
 This page enable the user to sign up to be able to recieve notifications on the newest recipes available. In addition, the sign up will also all for notifications on the new and future events
 
 <img src="assets/readme.md-images/sign-up.png">
+
+##Technologies Used
+- HTML5 - basic coding to build a website
+- CSS3 - used for styling the website
+- Gitpod - used to create the website
+- Github - used to store repository of website and deploy website
+- Chrome Dev Tools - used to view and experiment with styles
+- Font Awsome - used to find the icons 
+- Google Fonts - used to find the fonts for the website
+- Pexels - provided the images seen throughout the website
+- Ui.dev - created a multi image display of webpage on multiple devices
+- Eye Dropper - Chrome add on that allowed me to pick the exact color I was after
+- Canva - Color pairing tool that showed me which colors went well with the ones i chose
+
+##Testing
+Click to [here](/workspace/Food-First/TESTING.md)
