@@ -29,6 +29,7 @@ h2{
 }
 
 /*Index page main heading*/
+
 #logo{
     float: left;
     margin-left: 55px;
@@ -36,8 +37,9 @@ h2{
     font-size: 80px;
 }
 /*navigation menu*/
+
 #menu{
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 6px;
 }
 
@@ -63,6 +65,7 @@ h2{
     border-bottom: #6B7285 4px solid;
 }
 /*Hero image and text*/
+
 #hero-image{
     height: 600px;
     width: 100%;
@@ -81,6 +84,7 @@ h2{
     position: absolute;
 }
 /*weekly recipe section*/
+
 #weekly-recipe{
     height: 600px;
     font-size: 40px;
@@ -107,14 +111,16 @@ h2{
     height: 200px;
   }
 /*events section*/
+
 #events{
-    position: relative; top:-160px;
+    position: relative; 
+    top:-160px;
     overflow: hidden;
 }
 
 #events-heading{
-    font-size: 50px;
-    text-align: center;
+    font-size: 55px;
+    text-align: left;
     letter-spacing: 6px;
 
 }
@@ -124,10 +130,11 @@ h2{
     width: 20%;
     height: 150px;
     float: left;
-    text-align:center;
+    text-align:left;
     box-sizing: border-box;
 }
 /*footer*/
+
 footer{
 position:relative; 
    left:0px;
@@ -136,6 +143,7 @@ position:relative;
    width:100%;
 }
 /*Gallery*/
+
 #media{
     text-align: center;
 }
@@ -152,6 +160,7 @@ position:relative;
     list-style-type: none;
 }
 /*Form on signup page*/
+
 .form{
     height: 300px;
     width: 100%;
@@ -193,7 +202,8 @@ position:relative;
 }
 
 /*For large screen sizes 1200px and above*/
-@media only screen and (min-width: 1200px){
+
+@media only screen and (min-width: 1600px){
     #logo{
         height: 100%;
         width: 50%;
@@ -203,7 +213,7 @@ position:relative;
 
     #menu{
         clear: left;
-        float: left;
+        float: right;
         margin-left: 10px;
         margin-bottom: 20px;
     }
@@ -218,7 +228,6 @@ position:relative;
     }
 
     #events > div{
-        width:100%;
         clear: both;
         height: -150px;
         padding: -100px;
@@ -226,7 +235,8 @@ position:relative;
 
 }
 /*For medium/large screen sizes 950px and above*/
-@media screen and (min-width: 950px){
+
+@media screen and (max-width: 950px){
 
     #menu{
         clear: left;
@@ -237,7 +247,8 @@ position:relative;
 }
 
 /*for small screen sizes 480px and above*/
-@media only screen and (min-width: 480px){
+
+@media only screen and (max-width: 480px){
     
 
     #hero-text{
@@ -250,11 +261,11 @@ position:relative;
     
     #menu li{
         float:right;
-    margin-right: 10px;
-    list-style-type: none;
-    text-align: center;
-    width: 95px;
-    font-size: 20px;
+        margin-right: 10px;
+        list-style-type: none;
+        text-align: center;
+        width: 95px;
+        font-size: 30px;
     
     }
 
