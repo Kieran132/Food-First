@@ -13,12 +13,6 @@ https://github.com/Kieran132/Food-First
 ## Contents
 - Project Goals
 - Target Audience
-- UX User Experience
-    - Initial Concept
-    - Site Structure
-    - Colour Scheme
-    - Typography
-    - Imagery
 - Existing Features
     - Navigation Bar
     - Hero Image
@@ -26,6 +20,12 @@ https://github.com/Kieran132/Food-First
     - Events
     - Gallery
     - Sign up
+- UX User Experience
+    - Initial Concept
+    - Site Structure
+    - Colour Scheme
+    - Typography
+    - Imagery
 - Technologies Used
 - Testing
 - Deployment
@@ -42,7 +42,18 @@ The Features within this website are common to all users of the internet. This b
 
 ###Existing Features
 
-####Home
-
 ####Navigation Bar
 At the top of each page througout the users time on the website. It contains the wording to each page and also the links that will navigate the user. Whenever the user hovers over Home, Gallery or Sign Up a line appears underneath giving better UX by showing the user where they have pointed the mouse.
+
+<img src="assets/readme.md-images/navigation.png">
+
+####Hero Image
+The hero image, I wanted something that just looked clean and simple. When initially entering the page the colors are not overwhelming or in the users face. The image has few aspects relating it to the website being about food with having a few visible ingredients. Having the initial image cropped to only show these few things, I think has added to the minimalism I was aiming for. I decided to add a little slogan to emphasise how easy it is to find a recipe within this website.
+
+<img src="assets/readme.md-images/Hero-image.png">
+
+####Weekly Recipes
+Having the images of the weekly recipes visible and right infront of the user gets to the point of the ethos behind the site. Looking for a recipe? There are the weekly highlights. Quick and easy results for the user. All the images are linked and will take the user to the relevant recipe page.
+
+<img src="assets/readme.md-images/weekly-recipe.png">
+
