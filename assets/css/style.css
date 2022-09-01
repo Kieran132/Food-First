@@ -120,9 +120,8 @@ h2{
 
 #events-heading{
     font-size: 55px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 6px;
-
 }
 
 #events div{
@@ -130,7 +129,7 @@ h2{
     width: 20%;
     height: 150px;
     float: left;
-    text-align:left;
+    text-align: center;
     box-sizing: border-box;
 }
 /*footer*/
@@ -203,7 +202,7 @@ position:relative;
 
 /*For large screen sizes 1200px and above*/
 
-@media only screen and (min-width: 1600px){
+@media only screen and (max-width: 1200px){
     #logo{
         height: 100%;
         width: 50%;
@@ -229,6 +228,7 @@ position:relative;
 
     #events > div{
         clear: both;
+        width: 100%;
         height: -150px;
         padding: -100px;
     }
