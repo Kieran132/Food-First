@@ -28,13 +28,14 @@ h2{
     letter-spacing: 6px;
 }
 
+/*Index page main heading*/
 #logo{
     float: left;
     margin-left: 55px;
     margin-top: 10px;
     font-size: 80px;
 }
-
+/*navigation menu*/
 #menu{
     font-size: 25px;
     letter-spacing: 6px;
@@ -61,7 +62,7 @@ h2{
 #menu a:hover{
     border-bottom: #6B7285 4px solid;
 }
-
+/*Hero image and text*/
 #hero-image{
     height: 600px;
     width: 100%;
@@ -79,7 +80,7 @@ h2{
     left: 20px;
     position: absolute;
 }
-
+/*weekly recipe section*/
 #weekly-recipe{
     height: 600px;
     font-size: 40px;
@@ -105,7 +106,7 @@ h2{
     padding: 5px;
     height: 200px;
   }
-
+/*events section*/
 #events{
     position: relative; top:-160px;
     overflow: hidden;
@@ -126,7 +127,7 @@ h2{
     text-align:center;
     box-sizing: border-box;
 }
-
+/*footer*/
 footer{
 position:relative; 
    left:0px;
@@ -134,7 +135,7 @@ position:relative;
    height: 30px;
    width:100%;
 }
-
+/*Gallery*/
 #media{
     text-align: center;
 }
@@ -150,7 +151,7 @@ position:relative;
     letter-spacing: 20px;
     list-style-type: none;
 }
-
+/*Form on signup page*/
 .form{
     height: 300px;
     width: 100%;
@@ -191,8 +192,8 @@ position:relative;
     background-color: #6b8571;
 }
 
-
-@media only screen and (max-width: 1200px){
+/*For large screen sizes 1200px and above*/
+@media only screen and (min-width: 1200px){
     #logo{
         height: 100%;
         width: 50%;
@@ -224,8 +225,8 @@ position:relative;
     }
 
 }
-
-@media screen and (max-width: 950px){
+/*For medium/large screen sizes 950px and above*/
+@media screen and (min-width: 950px){
 
     #menu{
         clear: left;
@@ -235,17 +236,9 @@ position:relative;
     }
 }
 
-@media screen and (max-width:800px){
-    #menu{
-        width:100%;
-    }
-}
-
-@media only screen and (max-width: 480px){
+/*for small screen sizes 480px and above*/
+@media only screen and (min-width: 480px){
     
-    #hero-image{
-    
-    }
 
     #hero-text{
         font-size:35px;
