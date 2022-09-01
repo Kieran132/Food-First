@@ -36,3 +36,13 @@ The idea for this project has always been something that I would like to see mor
 
 ## Target Audience
 The type of people who I am aiming this website at are people who in essence are they lazy type. Instead of them going out looking for a recipe, they would simply come to Food First, see what the weekly recommended recipes are and take it from there. if they dont like what they see then they can click over to the gallery where they are able to see a whole range of dishes.
+
+## Features
+The Features within this website are common to all users of the internet. This being in the form of menu/navigation bar and footer. Having a familiar layout that all internet users have experienced, makes the website have a better User experience. From the initial viewing on the home page, people are drawn to the 'normal' areas where they would expect certain placements to be.
+
+###Existing Features
+
+####Home
+
+####Navigation Bar
+At the top of each page througout the users time on the website. It contains the wording to each page and also the links that will navigate the user. Whenever the user hovers over Home, Gallery or Sign Up a line appears underneath giving better UX by showing the user where they have pointed the mouse.
