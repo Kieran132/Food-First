@@ -18,14 +18,9 @@ https://github.com/Kieran132/Food-First
     - Hero Image
     - Weekly Recipes
     - Events
+    - Footer
     - Gallery
     - Sign up
-- UX User Experience
-    - Initial Concept
-    - Site Structure
-    - Colour Scheme
-    - Typography
-    - Imagery
 - Technologies Used
 - Testing
 - Deployment
@@ -57,3 +52,22 @@ Having the images of the weekly recipes visible and right infront of the user ge
 
 <img src="assets/readme.md-images/weekly-recipe.png">
 
+####Events 
+With being a got to website for food enthusiasts, adding on a section that highlights events would broaden the users interaction with the website. Not only would this ossibly add additional income from outsiders using the website for their advertisments of the events but also it would get the user thinking about going to them and add to their interest into food.
+
+<img src="assets/readme.md-images/events.png">
+
+####Footer
+The footer ends with how I wanted the website to feel, simple. Only have four icons that link to their relevant sites does this. The four icons are synonymous with everyday life and the user can instantly recognise and relate to where that icon would take them.
+
+<img src="assets/readme.md-images/footer.png">
+
+####Gallery
+The gallery page showcases the range of recipes available to the user. With being spaced out evenly, the user will not be overwhelmed with the page being over-crowded.
+
+<img src="assets/readme.md-images/Gallery.png">
+
+####Sign Up
+This page enable the user to sign up to be able to recieve notifications on the newest recipes available. In addition, the sign up will also all for notifications on the new and future events
+
+<img src="assets/readme.md-images/sign-up.png">
