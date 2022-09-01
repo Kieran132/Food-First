@@ -241,7 +241,7 @@ position:relative;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
     
     #hero-image{
     
@@ -260,8 +260,8 @@ position:relative;
     margin-right: 10px;
     list-style-type: none;
     text-align: center;
-    padding: 14px 16px;
-    width: 115px;
+    width: 95px;
+    font-size: 20px;
     
     }
 
