@@ -98,3 +98,16 @@ The website was delpoyed using GitHub. To do this I did the following;
 (https://kieran132.github.io/Food-First/)
 
 ##Credits
+
+###Content
+- The text throughout the website was taken from [Google Fonts](https://fonts.google.com/)
+- The icons in the footer were taken from [Font Awsome](https://fontawesome.com/)
+
+###Media
+- The image on the home screen came from [Pexels](https://www.pexels.com/)
+- The images on the Home and Gallery pages were taken from [Pexels](https://www.pexels.com/)
+- The links used in the weekly recipes are from [BBC-GoodFood] (https://www.bbcgoodfood.com/)
+- The icons in the footer are linked to their relevant icon, Facebook, Instagram, Pinterest, Twitter
+- Many issues were resolved using [W3School](https://www.w3schools.com/)
+- The fabrication of the submit button came from [Free-Code-Camp](https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/)
+- To be able to select certain color, Chrome add-on Eye Dropper was used
