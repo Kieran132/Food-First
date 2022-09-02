@@ -87,3 +87,14 @@ This page enable the user to sign up to be able to recieve notifications on the 
 
 ##Testing and Bugs
 Click to [here](TESTING.md) to see further information on testing
+
+##Deployment
+The website was delpoyed using GitHub. To do this I did the following;
+1. When on the websites GitHub repository, click on the settings tab
+2. Now on the settings page, on the left hand side of the page, click on the pages tab
+3. Under the Source section, click on the drop down menu titled Branch and select main
+4. The page is now published with a link available to use.
+
+(https://kieran132.github.io/Food-First/)
+
+##Credits
