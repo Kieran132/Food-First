@@ -35,44 +35,44 @@ The type of people who I am aiming this website at are people who in essence are
 ## Features
 The Features within this website are common to all users of the internet. This being in the form of menu/navigation bar and footer. Having a familiar layout that all internet users have experienced, makes the website have a better User experience. From the initial viewing on the home page, people are drawn to the 'normal' areas where they would expect certain placements to be.
 
-###Existing Features
+### Existing Features
 
-####Navigation Bar
+#### Navigation Bar
 At the top of each page througout the users time on the website. It contains the wording to each page and also the links that will navigate the user. Whenever the user hovers over Home, Gallery or Sign Up a line appears underneath giving better UX by showing the user where they have pointed the mouse.
 
 <img src="assets/readme.md-images/navigation.png">
 
-####Hero Image
+#### Hero Image
 The hero image, I wanted something that just looked clean and simple. When initially entering the page the colors are not overwhelming or in the users face. The image has few aspects relating it to the website being about food with having a few visible ingredients. Having the initial image cropped to only show these few things, I think has added to the minimalism I was aiming for. I decided to add a little slogan to emphasise how easy it is to find a recipe within this website.
 
 <img src="assets/readme.md-images/Hero-image.png">
 
-####Weekly Recipes
+#### Weekly Recipes
 Having the images of the weekly recipes visible and right infront of the user gets to the point of the ethos behind the site. Looking for a recipe? There are the weekly highlights. Quick and easy results for the user. All the images are linked and will take the user to the relevant recipe page.
 
 <img src="assets/readme.md-images/weekly-recipe.png">
 
-####Events 
+#### Events 
 With being a got to website for food enthusiasts, adding on a section that highlights events would broaden the users interaction with the website. Not only would this ossibly add additional income from outsiders using the website for their advertisments of the events but also it would get the user thinking about going to them and add to their interest into food.
 
 <img src="assets/readme.md-images/events.png">
 
-####Footer
+#### Footer
 The footer ends with how I wanted the website to feel, simple. Only have four icons that link to their relevant sites does this. The four icons are synonymous with everyday life and the user can instantly recognise and relate to where that icon would take them.
 
 <img src="assets/readme.md-images/footer.png">
 
-####Gallery
+#### Gallery
 The gallery page showcases the range of recipes available to the user. With being spaced out evenly, the user will not be overwhelmed with the page being over-crowded.
 
 <img src="assets/readme.md-images/Gallery.png">
 
-####Sign Up
+#### Sign Up
 This page enable the user to sign up to be able to recieve notifications on the newest recipes available. In addition, the sign up will also all for notifications on the new and future events
 
 <img src="assets/readme.md-images/sign-up.png">
 
-##Technologies Used
+## Technologies Used
 - HTML5 - basic coding to build a website
 - CSS3 - used for styling the website
 - Gitpod - used to create the website
@@ -85,10 +85,10 @@ This page enable the user to sign up to be able to recieve notifications on the 
 - Eye Dropper - Chrome add on that allowed me to pick the exact color I was after
 - Canva - Color pairing tool that showed me which colors went well with the ones i chose
 
-##Testing and Bugs
+## Testing and Bugs
 Click to [here](TESTING.md) to see further information on testing
 
-##Deployment
+## Deployment
 The website was delpoyed using GitHub. To do this I did the following;
 1. When on the websites GitHub repository, click on the settings tab
 2. Now on the settings page, on the left hand side of the page, click on the pages tab
@@ -97,13 +97,13 @@ The website was delpoyed using GitHub. To do this I did the following;
 
 (https://kieran132.github.io/Food-First/)
 
-##Credits
+## Credits
 
-###Content
+### Content
 - The text throughout the website was taken from [Google Fonts](https://fonts.google.com/)
 - The icons in the footer were taken from [Font Awsome](https://fontawesome.com/)
 
-###Media
+### Media
 - The image on the home screen came from [Pexels](https://www.pexels.com/)
 - The images on the Home and Gallery pages were taken from [Pexels](https://www.pexels.com/)
 - The links used in the weekly recipes are from [BBC-GoodFood] (https://www.bbcgoodfood.com/)

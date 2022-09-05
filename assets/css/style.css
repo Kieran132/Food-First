@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box
 }
 
 body{
@@ -95,26 +94,22 @@ h2{
 
 #weekly-heading{
     float: left;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
-.row {
-    padding-top: 10px;
-    display: flex;
-    object-fit: cover;
-    float: left;
-}
-  
 .column {
-    flex: 25%;
-    padding: 5px;
-    height: 200px;
+    width: 25%;
+    height: auto;
+  }
+  
+  .row::after {
+    clear: both;
+    display: table;
   }
 /*events section*/
 
 #events{
     position: relative; 
-    top:-160px;
     overflow: hidden;
 }
 
@@ -242,28 +237,44 @@ position:relative;
         margin-left: 10px;
         margin-bottom: 20px;
     }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        column-count: 2;
+    }
+    
+    .column{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /*for small screen sizes 480px and above*/
 
 @media only screen and (max-width: 480px){
     
+    #logo{
+        font-size: 45px;
+    }
+
+    #hero-image{
+        width: 100%;
+        height: 500px;
+    }
 
     #hero-text{
-        font-size:35px;
+        font-size:30px;
+        margin-top: 15%;
+        float: left;
     }
 
-    #logo{
-        text-align: center;
-    }
-    
     #menu li{
-        float:right;
-        margin-right: 10px;
-        list-style-type: none;
+        font-size: 20px;
+        float: left;
         text-align: center;
-        width: 95px;
-        font-size: 30px;
     
     }
 
@@ -271,7 +282,31 @@ position:relative;
         text-align: center;
         display: inline;
         width: 325px;
+        font-size: 60px;
     }
+
+    .events-heading{
+        font-size: 70%;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        column-count: 1;
+    }
+    
+    .column{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #events{
+        height: 100%;
+        margin-top: 50px;
+    }
+
 
 }
 .images {
