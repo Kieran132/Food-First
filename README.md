@@ -2,7 +2,7 @@
 
 Have you ever been in the situation where you are not sue what you fancy for dinner? Food First is the go to site that lets you explore new and exciting recipes that have come from fellow food enthusiasts. Available will be new and exciting weekly recipes and also a gallery that shows what others have created to get inspiration.
 
-<img src="/workspace/Food-First/assets/readme.md-images/responsive-screen-image.png">
+<img src="assets/readme.md-images/Responsive image.png">
 
 ## Live Site 
 https://kieran132.github.io/Food-First/
@@ -109,5 +109,5 @@ The website was delpoyed using GitHub. To do this I did the following;
 - The links used in the weekly recipes are from [BBC-GoodFood] (https://www.bbcgoodfood.com/)
 - The icons in the footer are linked to their relevant icon, Facebook, Instagram, Pinterest, Twitter
 - Many issues were resolved using [W3School](https://www.w3schools.com/)
-- The fabrication of the submit button came from [Free-Code-Camp](https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/)
+- The fabrication of the submit page came from [Free-Code-Camp](https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/)
 - To be able to select certain color, Chrome add-on Eye Dropper was used
