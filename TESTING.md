@@ -1,19 +1,29 @@
-##Testing
+## Testing
 
-####W3C Validator
-This tested the HTML5 coding within the website - passed
-<img src="assets/readme.md-images/Html pass.png">
+### W3C Validator
 
-####(Jigsaw) Validator
+#### Index.html
+Passed
+<img src="assets/readme.md-images/index page w3c pass.png">
+
+#### Gallery.html
+Passed
+<img src="assets/readme.md-images/gallery w3c pass.png">
+
+#### Sign-up.html
+Passed
+<img src="assets/readme.md-images/sign-up w3c pass.png">
+
+### (Jigsaw) Validator
 This tested the css styling within the website - passed
-<img src="assets/readme.md-images/passed css.png">
+<img src="assets/readme.md-images/jigsaw css pass.png">
 
-####Lighthouse Testing
+### Lighthouse Testing
 This tests 4 areas, performance, accessibility, best practices and SEO to determine overall performance score
 <img src="assets/readme.md-images/lighthouse.png">
 
 
-##Bugs
+## Bugs
 
 - When inserting images into the website, any images that saved as .png or .webp did not show on the deployed website
 Resolution - To resolve this issue I converted the images into .jpeg
