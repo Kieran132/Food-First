@@ -85,7 +85,6 @@ h2{
 /*weekly recipe section*/
 
 #weekly-recipe{
-    height: 600px;
     font-size: 40px;
     letter-spacing: 6px;
     overflow: hidden;
@@ -96,16 +95,15 @@ h2{
     float: left;
     padding-top: 40px;
 }
-
-.column {
-    width: 25%;
-    height: auto;
-  }
   
-  .row::after {
-    clear: both;
-    display: table;
-  }
+.row{
+    column-count: 4;
+    clear:both;
+    line-height: 0;
+    column-gap: 0;
+}
+
+
 /*events section*/
 
 #events{
@@ -127,16 +125,29 @@ h2{
     text-align: center;
     box-sizing: border-box;
 }
+
+/*Gallery*/
+#gallery-images{
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+
+}
+
+#gallery-images > img{
+    width: 100%;
+}
+
 /*footer*/
 
 footer{
-position:relative; 
-   left:0px;
-   bottom:0px;
-   height: 30px;
-   width:100%;
-}
-/*Gallery*/
+    position:relative; 
+       left:0px;
+       bottom:0px;
+       height: 30px;
+       width:100%;
+    }
 
 #media{
     text-align: center;
@@ -239,16 +250,12 @@ position:relative;
     }
 
     .row{
-        flex-direction: column;
-        width: 100%;
-        height: auto;
         column-count: 2;
     }
     
-    .column{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+
+    #gallery-images{
+        column-count: 3;
     }
 }
 
@@ -290,34 +297,18 @@ position:relative;
     }
 
     .row{
-        flex-direction: column;
-        width: 100%;
-        height: auto;
         column-count: 1;
     }
     
-    .column{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     #events{
         height: 100%;
         margin-top: 50px;
     }
 
+    #gallery-images{
+        column-count: 2;
+    }
 
-}
-.images {
-    flex: 55%;
-    max-width: 100%;
-    padding: 0 4px;
-    columns: 4;
-}
-  
-.images img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
+
 }
