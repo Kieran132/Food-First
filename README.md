@@ -5,10 +5,10 @@ Have you ever been in the situation where you are not sue what you fancy for din
 <img src="assets/readme.md-images/Responsive image.png">
 
 ## Live Site 
-https://kieran132.github.io/Food-First/
+https://kieran132.github.io/Food-First-P1/
 
 ## Repository
-https://github.com/Kieran132/Food-First
+https://github.com/Kieran132/Food-First-P1
 
 ## Contents
 - Project Goals
