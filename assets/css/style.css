@@ -276,8 +276,7 @@ footer{
     #menu{
         clear: left;
         float: left;
-        margin-left: 10px;
-        margin-bottom: 20px;
+       margin: 0 auto;
     }
 
     .row{
@@ -288,6 +287,7 @@ footer{
     #gallery-images{
         column-count: 3;
     }
+
 }
 
 /*for small screen sizes 480px and above*/
@@ -295,7 +295,7 @@ footer{
 @media only screen and (max-width: 480px){
     
     #logo{
-        font-size: 45px;
+        font-size: 48px;
     }
 
     #hero-image{
@@ -309,9 +309,11 @@ footer{
     }
 
     #menu li{
-        font-size: 25px;
-        float: left;
-        text-align: center;
+        font-size: 17px;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
     
     }
 
@@ -319,11 +321,13 @@ footer{
         text-align: center;
         display: inline;
         width: 325px;
-        font-size: 60px;
+        font-size: 25px;
+        margin: 0 auto;
     }
 
-    .events-heading{
-        font-size: 70%;
+    #events-heading{
+        font-size: 45px;
+        padding-bottom: 15px;
     }
 
     .row{
