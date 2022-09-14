@@ -14,6 +14,10 @@ Passed
 Passed
 <img src="assets/readme.md-images/sign-up w3c pass.png">
 
+#### confirmation.html
+Passed
+<img src="assets/readme.md-images/confirmation pass.png">
+
 ### (Jigsaw) Validator
 This tested the css styling within the website - passed
 <img src="assets/readme.md-images/jigsaw css pass.png">
