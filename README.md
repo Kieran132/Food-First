@@ -71,7 +71,7 @@ The gallery page showcases the range of recipes available to the user. With bein
 #### Sign Up
 This page enable the user to sign up to be able to recieve notifications on the newest recipes available. In addition, the sign up will also all for notifications on the new and future events
 
-<img src="assets/readme.md-images/sign-up.png">
+<img src="assets/readme.md-images/Sign-up.png">
 
 #### Confirmation
 This is a basic page informing the user that once they have signed up that it is complete.
