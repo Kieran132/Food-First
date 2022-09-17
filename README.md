@@ -131,3 +131,4 @@ To create a clone you do the following;
 - Many issues were resolved using [W3School](https://www.w3schools.com/)
 - The fabrication of the submit page came from [Free-Code-Camp](https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/)
 - To be able to select certain color, Chrome add-on Eye Dropper was used
+- Layout and design of the images in gallery.html came from Love running project
