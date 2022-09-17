@@ -2,7 +2,7 @@
 
 Have you ever been in the situation where you are not sue what you fancy for dinner? Food First is the go to site that lets you explore new and exciting recipes that have come from fellow food enthusiasts. Available will be new and exciting weekly recipes and also a gallery that shows what others have created to get inspiration.
 
-<img src="assets/readme.md-images/Responsive image.png">
+<img src="assets/readme.md-images/responsive-image.png">
 
 ## Live Site 
 https://kieran132.github.io/Food-First-P1/
@@ -46,7 +46,7 @@ At the top of each page througout the users time on the website. It contains the
 #### Hero Image
 The hero image, I wanted something that just looked clean and simple. When initially entering the page the colors are not overwhelming or in the users face. The image has few aspects relating it to the website being about food with having a few visible ingredients. Having the initial image cropped to only show these few things, I think has added to the minimalism I was aiming for. I decided to add a little slogan to emphasise how easy it is to find a recipe within this website.
 
-<img src="assets/readme.md-images/Hero-image.png">
+<img src="assets/readme.md-images/hero-image.png">
 
 #### Weekly Recipes
 Having the images of the weekly recipes visible and right infront of the user gets to the point of the ethos behind the site. Looking for a recipe? There are the weekly highlights. Quick and easy results for the user. All the images are linked and will take the user to the relevant recipe page.
@@ -66,12 +66,12 @@ The footer ends with how I wanted the website to feel, simple. Only have four ic
 #### Gallery
 The gallery page showcases the range of recipes available to the user. With being spaced out evenly, the user will not be overwhelmed with the page being over-crowded.
 
-<img src="assets/readme.md-images/Gallery.png">
+<img src="assets/readme.md-images/gallery.png">
 
 #### Sign Up
 This page enable the user to sign up to be able to recieve notifications on the newest recipes available. In addition, the sign up will also all for notifications on the new and future events
 
-<img src="assets/readme.md-images/Sign-up.png">
+<img src="assets/readme.md-images/sign-up.png">
 
 #### Confirmation
 This is a basic page informing the user that once they have signed up that it is complete, with the addition of a hyperlink to navigate the user back to the home page.
@@ -95,6 +95,8 @@ This is a basic page informing the user that once they have signed up that it is
 Click to [here](TESTING.md) to see further information on testing
 
 ## Deployment
+
+### Github Deployment
 The website was delpoyed using GitHub. To do this I did the following;
 1. When on the websites GitHub repository, click on the settings tab
 2. Now on the settings page, on the left hand side of the page, click on the pages tab
@@ -102,6 +104,18 @@ The website was delpoyed using GitHub. To do this I did the following;
 4. The page is now published with a link available to use.
 
 (https://kieran132.github.io/Food-First/)
+
+### Creating a Fork or Copying
+To clone/fork/copy the repository you click on the fork tab which is situated next to unwatch tab in the top right corner of the page
+
+### Clone
+To create a clone you do the following;
+1. Click on the code tab, left of the Gitpod tab
+2. To the right of the repository name, click the clipboard icon
+3. In the IED open GitBash
+4. Change the working directory to the location you prefer
+5. Add Git Clone with the copy of the repositroy name
+6. Clone has been created
 
 ## Credits
 
