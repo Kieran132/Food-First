@@ -1,400 +1,323 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Rokkitt:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
+ *{
+     margin: 0;
+     padding: 0;
+     border: none;
 }
-
-body{
-    font-family: Roboto-flex, sans-serif;
-    font-weight: 400;
-    color: #6b8571;
-    background-color: #F2F8D2;
+ body{
+     font-family: Roboto-flex, sans-serif;
+     font-weight: 400;
+     color: #6b8571;
+     background-color: #F2F8D2;
 }
-
-h1{
-    font-family: Rokkitt, sans-serif;
-    color: #6B7285;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+ h1{
+     font-family: Rokkitt, sans-serif;
+     color: #6B7285;
+     text-transform: uppercase;
+     letter-spacing: 6px;
 }
-
-h2{
-    font-family: Rokkitt, sans-serif;
-    color: #6B7285;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+ h2{
+     font-family: Rokkitt, sans-serif;
+     color: #6B7285;
+     text-transform: uppercase;
+     letter-spacing: 6px;
 }
-
 /*Index page main heading*/
-
-#logo{
-    float: left;
-    margin-left: 55px;
-    margin-top: 10px;
-    font-size: 80px;
+ #logo{
+     float: left;
+     margin-left: 55px;
+     margin-top: 10px;
+     font-size: 80px;
 }
 /*navigation menu*/
-
-#menu{
-    font-size: 30px;
-    letter-spacing: 1px;
+ #menu{
+     font-size: 30px;
+     letter-spacing: 1px;
 }
-
-#menu li{
-    float:right;
-    margin-right: 30px;
-    list-style-type: none;
-    text-align: center;
-    padding: 14px 16px;
-    
+ #menu li{
+     float:right;
+     margin-right: 30px;
+     list-style-type: none;
+     text-align: center;
+     padding: 14px 16px;
 }
-
-#menu, #logo{
-    line-height: 60px;
+ #menu, #logo{
+     line-height: 60px;
 }
-
-#menu a{
-    text-decoration: none;
-    color: #6B7285;
+ #menu a{
+     text-decoration: none;
+     color: #6B7285;
 }
-
-#menu a:hover{
-    border-bottom: #6B7285 4px solid;
+ #menu a:hover{
+     border-bottom: #6B7285 4px solid;
 }
 /*Hero image and text*/
-
-#hero-image{
-    height: 600px;
-    width: 100%;
-    background: url(../images/heo-image.jpeg);
+ #hero-image{
+     height: 600px;
+     width: 100%;
+     background: url(../images/heo-image.jpeg);
 }
-
-#hero-text{
-    font-size: 40px;
-    font-family: Rokkit, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    padding-left: 10px;
-    padding-top: 50px;
-    top: 250px;
-    left: 20px;
-    position: absolute;
+ #hero-text{
+     font-size: 40px;
+     font-family: Rokkit, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 6px;
+     padding-left: 10px;
+     padding-top: 50px;
+     top: 250px;
+     left: 20px;
+     position: absolute;
 }
 /*weekly recipe section*/
-
-#weekly-recipe{
-    font-size: 40px;
-    letter-spacing: 6px;
-    overflow: hidden;
-    background-color: #F2F8D2;
+ #weekly-recipe{
+     font-size: 40px;
+     letter-spacing: 6px;
+     overflow: hidden;
+     background-color: #F2F8D2;
 }
-
-#weekly-heading{
-    float: left;
-    padding-top: 40px;
+ #weekly-heading{
+     float: left;
+     padding-top: 40px;
 }
-  
-.row{
-    column-count: 4;
-    clear:both;
-    line-height: 0;
-    column-gap: 0;
+ .row{
+     column-count: 4;
+     clear:both;
+     line-height: 0;
+     column-gap: 0;
 }
-
-
 /*events section*/
-
-#events{
-    position: relative; 
-    overflow: hidden;
+ #events{
+     position: relative;
+     overflow: hidden;
 }
-
-#events-heading{
-    font-size: 55px;
-    text-align: center;
-    letter-spacing: 6px;
+ #events-heading{
+     font-size: 55px;
+     text-align: center;
+     letter-spacing: 6px;
 }
-
-#events div{
-    color: inherit;
-    width: 20%;
-    height: 150px;
-    float: left;
-    text-align: center;
-    box-sizing: border-box;
+ #events div{
+     color: inherit;
+     width: 20%;
+     height: 150px;
+     float: left;
+     text-align: center;
+     box-sizing: border-box;
 }
-
 /*Gallery*/
-#gallery-images{
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    background-size: contain;
+ #gallery-images{
+     clear: both;
+     line-height: 0;
+     column-count: 4;
+     column-gap: 0;
+     background-size: contain;
 }
-
-#gallery-images > img{
-    width: 100%;
+ #gallery-images > img{
+     width: 100%;
 }
-
 /*footer*/
-
-footer{
-    position:relative; 
-       left:0px;
-       bottom:0px;
-       height: 30px;
-       width:100%;
-    }
-
-#media{
-    text-align: center;
+ footer{
+     position:relative;
+     left:0px;
+     bottom:0px;
+     height: 30px;
+     width:100%;
 }
-
-#media > li{
-    display: inline-block;
+ #media{
+     text-align: center;
 }
-
-#media li a{
-    font-size: 40px;
-    color: #6B7285;
-    margin: 5%;
-    letter-spacing: 20px;
-    list-style-type: none;
+ #media > li{
+     display: inline-block;
+}
+ #media li a{
+     font-size: 40px;
+     color: #6B7285;
+     margin: 5%;
+     letter-spacing: 20px;
+     list-style-type: none;
 }
 /*Form on signup page*/
-
-.signup-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+ .signup-form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50vh;
 }
-
-.form{
-    background-color: #f8ebd2;
-    width: 400px;
-    border-radius: 8px;
-    padding: 20px 40px;
-    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+ .form{
+     background-color: #f8ebd2;
+     width: 400px;
+     border-radius: 8px;
+     padding: 20px 40px;
+     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
-
-.sign-heading{
-    font-size: 50px;
-    margin-bottom: 50px;
+ .sign-heading{
+     font-size: 50px;
+     margin-bottom: 50px;
 }
-
-.input-box{
-    position: relative;
-    height: 45px;
-    width: 90%;
-    margin-bottom: 17px;
+ .input-box{
+     position: relative;
+     height: 45px;
+     width: 90%;
+     margin-bottom: 17px;
 }
-
-.input{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #6b8571;
-    border-radius: 7px;
-    font-size: 16px;
-    padding: 0 20px;
-    outline: none;
-    background: none;
-    z-index: 1;
+ .input{
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     height: 100%;
+     width: 100%;
+     border: 1px solid #6b8571;
+     border-radius: 7px;
+     font-size: 16px;
+     padding: 0 20px;
+     outline: none;
+     background: none;
+     z-index: 1;
 }
-
-.lab{
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    padding: 0 4px;
-    background-color: #f8ebd2;
-    color: #becec2;
-    font-size: 16px;
-    transition: 0.5s;
-    z-index: 0;
+ .lab{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     padding: 0 4px;
+     background-color: #f8ebd2;
+     color: #becec2;
+     font-size: 16px;
+     transition: 0.5s;
+     z-index: 0;
 }
-
-#submit {
-    display: block;
-    margin-left: auto;
-    padding: 5px 30px;
-    border: none;
-    background-color: #505E5A;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 30px;
-  }
-  
-  #submit:hover {
-    background-color: #6B7285;
-    transform: translateY(-2px);
-  }
-
-  /*Confirmation Page*/
-
-  .confirm{
-    height: 90vh;
-  }
-
-  .thank-you{
-    padding-top: 300px;
-    text-align: center;
-    text-transform: capitalize;
-  }
-
-  .message{
-    text-align: center;
-    padding-bottom: 100px;
-  }
-
-  .nav{
-    text-align: center;
-    padding-bottom: 100px;
-  }
-
-
-@media only screen and (max-width: 1200px){
-    #logo{
-        height: 100%;
-        width: 80%;
-        margin-left: 55px;
-        margin-top: 20px;
-    }
-
-    #menu{
-        clear: left;
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-
-
-    #weekly-recipe{
-        width:100%;
-        max-height:20%; 
-        overflow:hidden;
-        text-align:justify;
-        word-break: break-all;
-    }
-
-    #events > div{
-        clear: both;
-        width: 100%;
-    }
-
-    .signup-form{
-        padding-top: 20px;
-    }
-
-    footer{
-        padding-top: 20px;
-    }
-
+ #submit {
+     display: block;
+     margin-left: auto;
+     padding: 5px 30px;
+     border: none;
+     background-color: #505E5A;
+     color: white;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 16px;
+     margin-top: 30px;
 }
-
-
-@media screen and (max-width: 950px){
-
-    #logo{
-        font-size: 50px;
-    }
-
-    #menu{
-        clear: left;
-        float: left;
-       margin: 0 auto;
-    }
-
-    #weekly-recipe{
-        font-size: 30px;
-    }
-
-    .row{
-        column-count: 2;
-    }
-
-    footer{
-        padding-top: 20px;
-    }
-
-    .signup-form{
-        padding-top: 20px;
-    }
-    
-    #gallery-images{
-        column-count: 3;
-    }
-
+ #submit:hover {
+     background-color: #6B7285;
+     transform: translateY(-2px);
 }
-
-
-
-@media only screen and (max-width: 480px){
-    
-    #logo{
-        font-size: 48px;
-    }
-
-    #hero-image{
-        width: 100%;
-        height: 500px;
-    }
-
-    #hero-text{
-        font-size:30px;
-        float: left;
-    }
-
-    #menu li{
-        font-size: 17px;
-        float: right;
-        overflow: hidden;
-        position: relative;
-        margin: 0 auto;
-    
-    }
-
-    #weekly-heading{
-        text-align: center;
-        display: inline;
-        width: 325px;
-        font-size: 25px;
-        margin: 0 auto;
-    }
-
-    #events-heading{
-        font-size: 45px;
-        padding-bottom: 15px;
-    }
-
-    .row{
-        column-count: 1;
-    }
-    
-
-    #events{
-        height: 100%;
-        margin-top: 50px;
-    }
-
-    #media{
-        padding-top: 20px;
-    }
-
-    .signup-form{
-        padding-top: 20px;
-    }
-
-    #gallery-images{
-        column-count: 2;
-    }
-
+/*Confirmation Page*/
+ .confirm{
+     height: 90vh;
 }
+ .thank-you{
+     padding-top: 300px;
+     text-align: center;
+     text-transform: capitalize;
+}
+ .message{
+     text-align: center;
+     padding-bottom: 100px;
+}
+ .nav{
+     text-align: center;
+     padding-bottom: 100px;
+}
+ @media only screen and (max-width: 1200px){
+     #logo{
+         height: 100%;
+         width: 80%;
+         margin-left: 55px;
+         margin-top: 20px;
+    }
+     #menu{
+         clear: left;
+         float: right;
+         margin-left: 10px;
+         margin-bottom: 20px;
+    }
+     #weekly-recipe{
+         width:100%;
+         max-height:20%;
+         overflow:hidden;
+         text-align:justify;
+         word-break: break-all;
+    }
+     #events > div{
+         clear: both;
+         width: 100%;
+    }
+     .signup-form{
+         padding-top: 20px;
+    }
+     footer{
+         padding-top: 20px;
+    }
+}
+ @media screen and (max-width: 950px){
+     #logo{
+         font-size: 50px;
+    }
+     #menu{
+         clear: left;
+         float: left;
+         margin: 0 auto;
+    }
+     #weekly-recipe{
+         font-size: 30px;
+    }
+     .row{
+         column-count: 2;
+    }
+     footer{
+         padding-top: 20px;
+    }
+     .signup-form{
+         padding-top: 20px;
+    }
+     #gallery-images{
+         column-count: 3;
+    }
+}
+ @media only screen and (max-width: 480px){
+     #logo{
+         font-size: 48px;
+    }
+     #hero-image{
+         width: 100%;
+         height: 500px;
+    }
+     #hero-text{
+         font-size:30px;
+         float: left;
+    }
+     #menu li{
+         font-size: 17px;
+         float: right;
+         overflow: hidden;
+         position: relative;
+         margin: 0 auto;
+    }
+     #weekly-heading{
+         text-align: center;
+         display: inline;
+         width: 325px;
+         font-size: 25px;
+         margin: 0 auto;
+    }
+     #events-heading{
+         font-size: 45px;
+         padding-bottom: 15px;
+    }
+     .row{
+         column-count: 1;
+    }
+     #events{
+         height: 100%;
+         margin-top: 50px;
+    }
+     #media{
+         padding-top: 20px;
+    }
+     .signup-form{
+         padding-top: 20px;
+    }
+     #gallery-images{
+         column-count: 2;
+    }
+}
+ 
