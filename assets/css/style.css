@@ -240,6 +240,10 @@ footer{
 
   /*Confirmation Page*/
 
+  .confirm{
+    height: 90vh;
+  }
+
   .thank-you{
     padding-top: 300px;
     text-align: center;
