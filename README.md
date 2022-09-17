@@ -74,7 +74,7 @@ This page enable the user to sign up to be able to recieve notifications on the 
 <img src="assets/readme.md-images/Sign-up.png">
 
 #### Confirmation
-This is a basic page informing the user that once they have signed up that it is complete.
+This is a basic page informing the user that once they have signed up that it is complete, with the addition of a hyperlink to navigate the user back to the home page.
 
 <img src="assets/readme.md-images/confirmation.png">
 
