@@ -37,3 +37,9 @@ Resolution - I compressed all the image files on the website which resulted in a
 
 - Two errors were found on initial CSS validator on row 232/233 due to no negative values are allowed
 Resolution - I removed the negative values and styled accordingly
+
+### Testing
+
+1. On the confirmation page, the footer was too high and didnt fit with the theme of the other pages. To rectify this I added height:vh90; to the styling which increased the height of the text pushing the footer lower on the page
+
+2. When viewing the website on mobile repsonsiveness, the nav bar was not aligned and over spilled onto another line. When testing to sort out this issues, changing the letter spacing enabled to nav bar to realign into one row.
