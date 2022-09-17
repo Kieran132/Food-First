@@ -39,7 +39,7 @@ h2{
 
 #menu{
     font-size: 30px;
-    letter-spacing: 6px;
+    letter-spacing: 1px;
 }
 
 #menu li{
@@ -264,7 +264,7 @@ footer{
 @media only screen and (max-width: 1200px){
     #logo{
         height: 100%;
-        width: 50%;
+        width: 80%;
         margin-left: 55px;
         margin-top: 20px;
     }
@@ -303,10 +303,18 @@ footer{
 
 @media screen and (max-width: 950px){
 
+    #logo{
+        font-size: 50px;
+    }
+
     #menu{
         clear: left;
         float: left;
        margin: 0 auto;
+    }
+
+    #weekly-recipe{
+        font-size: 30px;
     }
 
     .row{
