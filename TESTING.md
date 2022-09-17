@@ -2,30 +2,24 @@
 
 ### W3C Validator
 
-#### Index.html
+#### index.html
 Passed
-<img src="assets/readme.md-images/index page w3c pass.png">
 
-#### Gallery.html
+#### gallery.html
 Passed
-<img src="assets/readme.md-images/gallery w3c pass.png">
 
-#### Sign-up.html
+#### sign-up.html
 Passed
-<img src="assets/readme.md-images/sign-up w3c pass.png">
 
 #### confirmation.html
 Passed
-<img src="assets/readme.md-images/confirmation pass.png">
 
 ### (Jigsaw) Validator
-This tested the css styling within the website - passed
-<img src="assets/readme.md-images/jigsaw css pass.png">
+Passed
 
 ### Lighthouse Testing
-This tests 4 areas, performance, accessibility, best practices and SEO to determine overall performance score
-<img src="assets/readme.md-images/lighthouse.png">
 
+<img src="assets/readme.md-images/lighthouse.png">
 
 ## Bugs
 
